@@ -22,6 +22,7 @@ if (existingDataString) {
   setUsersArr(existingData);
   setDownloadBool(true);
   
+  
 } else {
   console.log('LocalStorage is empty or key does not exist');
 }
